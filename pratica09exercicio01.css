@@ -1,0 +1,63 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Formatação de tipografia e tamanho */
+    font-size: 15px;
+}
+h1.mensagem { /* Formatação da mensagem pós cadastro */
+    background-color: #518547;
+    color: #83f791;
+    padding: 1rem;
+    border: 2px solid #1f3022;
+    width: 30rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+main {
+    border: .2rem solid black;  /* Configurações do quadro principal */
+    width: 25rem;
+    padding: 1.8rem 1rem;
+    background-color:rgb(241, 241, 241);
+    margin: 1rem auto;
+}
+
+label {
+    float: left; /* Alinhamento horizontal entre label e input */
+}
+
+label, input {
+    width: 160px; /* Alinhamento vertical entre label e input */
+}
+
+#datnasc {
+    width: 159px; /* Tamanho do input de Data de nascimento */
+}
+
+div {
+    align-items: left; /* Alinhamento horizontal dos checkbox com label */
+    display: flex;
+}
+
+.alinha {
+    width: 13.7rem; /* Alinhamento dos checkbox com o restante do formulario*/
+    padding: .2rem;
+}
+
+#login, #email, #datnasc, #senha, #confsenha, #sexo, #cidade, #home { /* Espaçamento entre os inputs */
+    margin: .3rem;
+}
+
+.labelalinha, .labelinteresse { /* Configuração de tamanho e largura do botão Limpar */
+    margin: .23rem;
+}
+
+#limpar {
+    text-align: center; /* Configuração de tamanho e largura do botão Limpar */
+    width: 56px;
+    margin: .3rem;
+}
+
+#submit {
+    text-align: center; /* Tamanho e largura do botão Cadastrar */
+    width: 75px;
+    margin: .8rem 3rem;
+}
